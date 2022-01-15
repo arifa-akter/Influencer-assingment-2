@@ -92,7 +92,7 @@ ul,ol{
     padding-bottom: 60px;
 }
 .link-button{
-    background: #E02C6D;
+    background: linear-gradient( #E02C6D ,#d87398) ;
     padding: 20px 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -103,6 +103,15 @@ ul,ol{
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    box-shadow: 4px 4px 9px rgba(180, 63, 106, 0.692);
+}
+.button:hover{
+    padding-left: 20px;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 .fa-icon {
     font-size: 18px;
