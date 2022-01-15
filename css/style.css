@@ -451,6 +451,7 @@ media query
     .main-company {
         grid-template-columns: repeat(7, 77px);
         width: 100%;
+        border:none;
     }
 
     .company-logo img {
