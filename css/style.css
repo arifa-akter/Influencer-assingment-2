@@ -401,7 +401,7 @@ media query
 /* ------------------ Mobile device ------------*/
 
 
-@media screen and (min-width: 576px) and (max-width:688px) {
+@media screen and (max-width:688px) {
 
     /* ------------ navber part -------  */
     .main-menu {
