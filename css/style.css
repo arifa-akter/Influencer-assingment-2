@@ -166,7 +166,8 @@ ul,ol{
     margin-bottom:100px;
 }
 .main-company{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
     border-top: 2px solid #c5c1c1;
     border-bottom: 2px solid #cac7c7;
     padding: 30px 0px 30px 0px;
@@ -341,3 +342,125 @@ ul,ol{
     margin-top: 20px;
     background: #cac7c73a;
 }
+/*====================== 
+media query
+========================*/
+/* ------------------ Mobile device ------------*/
+
+
+@media screen and (max-width:688px) {
+
+    /* ------------ navber part -------  */
+    .main-menu{
+    
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+    }
+    .menu{
+       display: none;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .menu-text{
+        width: 100%;
+    }
+    .menu-text h2{      
+        font-size: 40px;
+        text-align: center;
+     
+    } 
+
+    /* ----------- influencer -part ------------*/
+    .influencer-main{
+        flex-direction: column-reverse;
+        margin-left: 30px;
+    }
+
+    .infulencer-photo{  
+        margin-left: 53px;
+        margin-bottom: 30px;
+    }
+    .infulencer-text {
+        text-align:center;
+    }
+    .infulencer-text h1{
+        font-size:37px;
+    }
+    .main-company{
+        grid-template-columns: repeat( 7, 77px);
+        width: 100% ; 
+    }
+    .company-logo img{
+        width: 30%;
+    }
+
+    /* ------ populer collection ------- */
+    .title-div {
+        font-size: 35px;
+    }
+    .collection-main{
+        grid-template-columns: repeat(1 ,1fr);
+      
+    }
+    .collection-item {
+        width: 555px;
+        margin-left: 44px;
+        margin-right: 17px;
+        padding-bottom: 48px;
+        margin-bottom: 30px;
+      }
+      .collection-text h3{
+          font-size: 46px;
+      }
+      .collection-text h2{
+          font-size: 40px;
+      }
+      .collection-text i{
+          font-size: 28px;
+      }
+      .collection-text span{
+        font-size: 28px;
+      }
+      .collection-text p{
+          font-size: 25px;
+          line-height: 40px;
+      }
+      .main-botton{
+          width: 100%;
+          text-align: left;
+          position: relative;
+      }
+
+    .button-align {
+        position: absolute;
+        top: 0;
+        left: 236px;
+    
+    }
+   
+      /* ---------- contact us ----------- */
+      .main-contuct{
+        flex-direction: column-reverse;
+    }
+    .contuct-photo img{
+        width: 688px;
+    }
+    .contuct-item{
+        width: 688px;
+    }
+   
+    .contuct-item p {
+        font-size: 26px;
+        line-height: 41px;
+    
+    }
+    .bn-change{
+        margin-left: -103px;
+    }
+    /* -------- footer part star --------- */
+    .container{
+        width: 100%;
+    }
+}
+
