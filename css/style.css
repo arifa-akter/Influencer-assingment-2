@@ -267,7 +267,7 @@ ul,ol{
 .footer-text-icon h3{
     font-size:17px;
     color:#ffffff;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 .footer-text-icon i{
     padding: 15px 15px;
@@ -277,8 +277,9 @@ ul,ol{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    border: 1px solid #ffffff;
+    border: 1px solid #cac7c73a;
     font-size: 17px;
     margin-left: 20px;
+    margin-top: 20px;
     background: #cac7c73a;
 }
