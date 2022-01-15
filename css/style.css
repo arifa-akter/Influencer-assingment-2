@@ -176,6 +176,9 @@ ul,ol{
     width: 157px;
 }
 /*====================== Popular Collection start ============ */
+#Popular{
+    margin-bottom: 100px;
+}
 .collection-main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -247,4 +250,33 @@ ul,ol{
     padding-bottom: 50px;
     padding-right: 16px;
     width: 200px;
+}
+/*====================== footer part start ===============*/
+#footers{
+   margin-top: 100px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   background: rgb(2, 2, 26);
+}
+.footer-text-icon h2{
+    color:#ffffff;
+    text-transform: capitalize;
+}
+.footer-text-icon h3{
+    font-size: 20px;
+    color:#ffffff;
+    padding-bottom: 30px;
+}
+.footer-text-icon i{
+    padding: 15px 15px;
+    color:#ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid #ffffff;
+    font-size: 17px;
+    margin-left: 20px;
+    background: #cac7c73a;
 }
