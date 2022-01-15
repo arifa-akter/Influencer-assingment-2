@@ -254,14 +254,15 @@ ul,ol{
 /*====================== footer part start ===============*/
 #footers{
    margin-top: 100px;
-   padding-top: 40px;
-   padding-bottom: 40px;
+   padding-top:30px;
+   padding-bottom:30px;
    background: rgb(2, 2, 26);
 }
 .footer-text-icon h2{
     color:#ffffff;
     font-size: 35px;
     text-transform: capitalize;
+    padding-bottom: 10px;
 }
 .footer-text-icon h3{
     font-size:17px;
