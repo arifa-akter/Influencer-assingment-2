@@ -425,7 +425,7 @@ media query
     }
 
     .menu-text {
-        width: 165%;
+        width: 130%;
     }
 
 
@@ -458,9 +458,14 @@ media query
     }
 
     /* ------ populer collection ------- */
+    .container{
+        width: 100%;
+    }
     .title-div {
         padding-left: 90px;
-        font-size: 20px;
+    }
+    .title-font{
+        font-size: 30px;
     }
 
     .collection-main {
@@ -534,7 +539,10 @@ media query
     }
 
     /* -------- footer part star --------- */
-    .container {
+    #footers {
         width: 100%;
+    }
+    .footer-text-icon{
+        text-align: center;
     }
 }
