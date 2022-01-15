@@ -401,7 +401,7 @@ media query
 /* ------------------ Mobile device ------------*/
 
 
-@media screen and (max-width:688px) {
+@media screen and (min-width: 576px) and (max-width:688px) {
 
     /* ------------ navber part -------  */
     .main-menu {
@@ -541,7 +541,7 @@ media query
 
     /* -------- footer part star --------- */
  #footers{
-     width: 259%;
+     width: 152%;
  }
     .footer-text-icon{
         width: 779px;
@@ -549,3 +549,27 @@ media query
    
 }
 /* ------------------ tab part ------------*/
+@media screen and (min-width:689px) and ( max-width:992px){
+  
+    .collection-main {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 30px;
+    }
+    nav{
+        margin-left: 32px;
+    }
+
+    .collection-item {
+        width: 350px;
+        margin-left: 44px;
+        margin-right: 17px;
+        padding-bottom: 48px;
+        margin-bottom: 30px;
+    }
+    .influencer-main{
+        margin-left: 56px;
+    }
+    #footers{
+        width: 164%;
+    }
+}
