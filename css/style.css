@@ -12,10 +12,7 @@ ul,ol{
     width: 1100px;
     margin: 0 auto;
 }
-.container-padding{
-  padding: 20px;
-  background: #E02C6D;
-}
+
 /*--------------------- navber start --------------- */
 .main-menu{
     display: flex;
@@ -179,6 +176,12 @@ ul,ol{
     width: 157px;
 }
 /*====================== Popular Collection start ============ */
+.collection-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}
 .title{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -188,15 +191,21 @@ ul,ol{
     padding-bottom: 30px;
 }
 .collection-item{
-    width: 329px;
+    width: 311px;
     background: #ffffff;
     border: 1px solid #cac7c7;
     padding: 17px 15px;
     box-shadow: 3px 0px 19px rgba(110, 108, 108, 0.349);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 .collection-photo img{
     width: 100%;
 }
+/* --- collection-text ----- */
  .collection-text h3{
     font-weight: 600;
     text-align: left;
@@ -222,4 +231,20 @@ ul,ol{
     font-size: 14px;
    color: #787885;
   line-height: 24px;
+}
+/* --- button ------- */
+.main-botton{
+    text-align: right;
+    background: red;
+    position: relative;
+}
+.button-align{
+    position: absolute;
+    top:0;
+    right: 0;
+    padding-left: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 16px;
+    width: 200px;
 }
