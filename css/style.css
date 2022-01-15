@@ -425,7 +425,7 @@ media query
     }
 
     .menu-text {
-        width: 130%;
+        width: 154%;
     }
 
 
@@ -463,7 +463,7 @@ media query
         width: 100%;
     }
     .title-div {
-        padding-left: 90px;
+        padding-left:  190px;;
     }
     .title-font{
         font-size: 30px;
@@ -526,7 +526,7 @@ media query
     }
 
     .contuct-item {
-        width: 688px;
+        width: 779px;
     }
 
     .contuct-item p {
@@ -540,10 +540,11 @@ media query
     }
 
     /* -------- footer part star --------- */
-    #footers {
-        width: 100%;
-    }
+ #footers{
+     width: 165%;
+ }
     .footer-text-icon{
-        text-align: center;
+        width: 779px;
     }
+   
 }
