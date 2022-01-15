@@ -19,7 +19,7 @@ ul,ol{
 /*--------------------- navber start --------------- */
 .main-menu{
     display: flex;
-    line-height: 103px;
+    line-height: 120px;
 }
 .menu-text{
     width: 40%
@@ -68,4 +68,46 @@ ul,ol{
 }
 .menu-icon i:hover{
     color:#3A3A3A;
+} 
+/*============= Start your Journey as Influencer part start =========== */
+.influencer-main{
+    display: flex;
+    padding-top: 20px;
+}
+.infulencer-text{
+    width: 600px;
+}
+.infulencer-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color:#3A3A3A;
+    font-size: 52px;
+}
+.infulencer-text p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:#3A3A3A;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 60px;
+}
+.link-button{
+    background: #E02C6D;
+    padding: 20px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color:#ffffff;
+    font-size: 16px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.fa-icon {
+    font-size: 18px;
+    padding-left: 12px;
+  }
+.infulencer-photo{
+  width: 500px;
 }
