@@ -8,7 +8,64 @@ a{
 ul,ol{
     list-style-type: none;
 }
+.container-header{
+    width: 1100px;
+    margin: 0 auto;
+}
 .container{
     width: 1077px;
     margin: 0 auto;
+}
+/*--------------------- navber start --------------- */
+.main-menu{
+    display: flex;
+    line-height: 103px;
+}
+.menu-text{
+    width: 40%
+}
+.menu-text h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color:#3A3A3A;
+    font-size: 24px
+}
+.menu{
+    width:50%;
+    text-align: right;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:#3A3A3A;
+    font-size: 16px;
+    padding-right: 30px;
+    transition: 0.4s all linear;
+    -webkit-transition: 0.4s all linear;
+    -moz-transition: 0.4s all linear;
+    -ms-transition: 0.4s all linear;
+    -o-transition: 0.4s all linear;
+}
+.menu li a:hover{
+    color: #E02C6D;
+
+}
+.menu-icon{
+    width:10%;
+}
+.menu-icon i{
+    color: #E02C6D;
+    padding-right: 10px;
+    font-size: 19px;
+    transition: 0.4s all linear;
+    -webkit-transition: 0.4s all linear;
+    -moz-transition: 0.4s all linear;
+    -ms-transition: 0.4s all linear;
+    -o-transition: 0.4s all linear;
+}
+.menu-icon i:hover{
+    color:#3A3A3A;
 }
