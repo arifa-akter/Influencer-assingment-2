@@ -74,8 +74,9 @@ ul,ol{
     display: flex;
     padding-top: 20px;
 }
+/*---------- infulencer text ----------- */
 .infulencer-text{
-    width: 600px;
+    width: 590px;
 }
 .infulencer-text h1{
     font-family: 'Poppins', sans-serif;
@@ -85,7 +86,7 @@ ul,ol{
 }
 .infulencer-text p{
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 620;
     color:#3A3A3A;
     font-size: 16px;
     line-height: 24px;
@@ -117,6 +118,48 @@ ul,ol{
     font-size: 18px;
     padding-left: 12px;
   }
+ /*---------- infulencer photo ----------- */
 .infulencer-photo{
-  width: 500px;
+  width: 480px;
+  border:2px solid #f3eeee;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  transition: transform 4s;
+  -webkit-transition: transform 4s;
+  -moz-transition: transform 4s;
+  -ms-transition: transform 4s;
+  -o-transition: transform 4s;
+}
+.infulencer-photo:hover{
+    transform: scale( 1.2) rotate( 360deg);
+    -webkit-transform: scale( 1.2) rotate( 360deg);
+    -moz-transform: scale( 1.2) rotate( 360deg);
+    -ms-transform: scale( 1.2) rotate( 360deg);
+    -o-transform: scale( 1.2) rotate( 360deg);
+}
+.infulencer-photo::after{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    content: '';
+    background: #e9dede;
+    top: 63px;
+    left: 73px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: -1;
+}
+
+
+.infulencer-photo img{
+    width:70%;
+    padding: 44px 60px;
 }
