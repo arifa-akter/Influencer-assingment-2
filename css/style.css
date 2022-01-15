@@ -1,43 +1,52 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul,ol{
+
+ul,
+ol {
     list-style-type: none;
 }
-.container{
+
+.container {
     width: 1100px;
     margin: 0 auto;
 }
 
 /*--------------------- navber start --------------- */
-.main-menu{
+.main-menu {
     display: flex;
     line-height: 120px;
 }
-.menu-text{
+
+.menu-text {
     width: 40%
 }
-.menu-text h2{
+
+.menu-text h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color:#3A3A3A;
+    color: #3A3A3A;
     font-size: 24px
 }
-.menu{
-    width:50%;
+
+.menu {
+    width: 50%;
     text-align: right;
 }
-.menu li{
+
+.menu li {
     display: inline-block;
 }
-.menu li a{
+
+.menu li a {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    color:#3A3A3A;
+    color: #3A3A3A;
     font-size: 16px;
     padding-right: 30px;
     transition: 0.4s all linear;
@@ -46,14 +55,17 @@ ul,ol{
     -ms-transition: 0.4s all linear;
     -o-transition: 0.4s all linear;
 }
-.menu li a:hover{
+
+.menu li a:hover {
     color: #E02C6D;
 
 }
-.menu-icon{
-    width:10%;
+
+.menu-icon {
+    width: 10%;
 }
-.menu-icon i{
+
+.menu-icon i {
     color: #E02C6D;
     padding-right: 10px;
     font-size: 19px;
@@ -63,38 +75,44 @@ ul,ol{
     -ms-transition: 0.4s all linear;
     -o-transition: 0.4s all linear;
 }
-.menu-icon i:hover{
-    color:#3A3A3A;
-} 
+
+.menu-icon i:hover {
+    color: #3A3A3A;
+}
+
 /*============= Start your Journey as Influencer part start =========== */
-.influencer-main{
+.influencer-main {
     display: flex;
     padding-top: 20px;
 }
+
 /*---------- infulencer text ----------- */
-.infulencer-text{
+.infulencer-text {
     width: 590px;
 }
-.infulencer-text h1{
+
+.infulencer-text h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color:#3A3A3A;
+    color: #3A3A3A;
     font-size: 52px;
 }
-.infulencer-text p{
+
+.infulencer-text p {
     font-family: 'Poppins', sans-serif;
     font-weight: 620;
-    color:#3A3A3A;
+    color: #3A3A3A;
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 60px;
 }
-.link-button{
-    background: linear-gradient( #E02C6D ,#d87398) ;
+
+.link-button {
+    background: linear-gradient(#E02C6D, #d87398);
     padding: 20px 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color:#ffffff;
+    color: #ffffff;
     font-size: 16px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -103,7 +121,8 @@ ul,ol{
     -o-border-radius: 30px;
     box-shadow: 4px 4px 9px rgba(180, 63, 106, 0.692);
 }
-.button:hover{
+
+.button:hover {
     padding-left: 20px;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -111,35 +130,39 @@ ul,ol{
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+
 .fa-icon {
     font-size: 18px;
     padding-left: 12px;
-  }
- /*---------- infulencer photo ----------- */
-.infulencer-photo{
-  width: 480px;
-  border:2px solid #f3eeee;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  position: relative;
-  z-index: 1;
-  transition: transform 4s;
-  -webkit-transition: transform 4s;
-  -moz-transition: transform 4s;
-  -ms-transition: transform 4s;
-  -o-transition: transform 4s;
 }
-.infulencer-photo:hover{
-    transform: scale( 1.2) rotate( 360deg);
-    -webkit-transform: scale( 1.2) rotate( 360deg);
-    -moz-transform: scale( 1.2) rotate( 360deg);
-    -ms-transform: scale( 1.2) rotate( 360deg);
-    -o-transform: scale( 1.2) rotate( 360deg);
+
+/*---------- infulencer photo ----------- */
+.infulencer-photo {
+    width: 480px;
+    border: 2px solid #f3eeee;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    transition: transform 4s;
+    -webkit-transition: transform 4s;
+    -moz-transition: transform 4s;
+    -ms-transition: transform 4s;
+    -o-transition: transform 4s;
 }
-.infulencer-photo::after{
+
+.infulencer-photo:hover {
+    transform: scale(1.2) rotate(360deg);
+    -webkit-transform: scale(1.2) rotate(360deg);
+    -moz-transform: scale(1.2) rotate(360deg);
+    -ms-transform: scale(1.2) rotate(360deg);
+    -o-transform: scale(1.2) rotate(360deg);
+}
+
+.infulencer-photo::after {
     position: absolute;
     width: 70%;
     height: 70%;
@@ -156,48 +179,56 @@ ul,ol{
 }
 
 
-.infulencer-photo img{
-    width:70%;
+.infulencer-photo img {
+    width: 70%;
     padding: 44px 60px;
 }
+
 /*============= company part start =========== */
-#company{
+#company {
     margin-top: 100px;
-    margin-bottom:100px;
+    margin-bottom: 100px;
 }
-.main-company{
+
+.main-company {
     display: grid;
-    grid-template-columns: repeat(7,1fr);
+    grid-template-columns: repeat(7, 1fr);
     border-top: 2px solid #c5c1c1;
     border-bottom: 2px solid #cac7c7;
     padding: 30px 0px 30px 0px;
 }
-.company-logo{
+
+.company-logo {
     text-align: center;
     width: 157px;
 }
+
 /*====================== Popular Collection start ============ */
-#Popular{
+#Popular {
     margin-bottom: 100px;
 }
-.collection-main{
+
+.collection-main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 30px;
     row-gap: 30px;
 }
-.title{
+
+.title {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    color:#3A3A3A;
+    color: #3A3A3A;
     font-size: 28px;
-    text-align:center;
+    text-align: center;
     padding-bottom: 30px;
 }
-.title-font{
+
+.title-font {
     font-size: 40px;
 }
-.collection-item{
+
+.collection-item {
     width: 311px;
     background: #ffffff;
     border: 1px solid #cac7c7;
@@ -209,45 +240,53 @@ ul,ol{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-.collection-photo img{
+
+.collection-photo img {
     width: 100%;
 }
+
 /* --- collection-text ----- */
- .collection-text h3{
+.collection-text h3 {
     font-weight: 600;
     text-align: left;
     padding-bottom: 6px;
-} 
-.collection-text h2{
+}
+
+.collection-text h2 {
     font-size: 24px;
-    color:black;
+    color: black;
     font-weight: 400;
 }
-.collection-text i{
-    color:#f0f017;
+
+.collection-text i {
+    color: #f0f017;
     font-weight: 19px;
     padding-right: 3px;
 }
-.collection-text span{
+
+.collection-text span {
     padding-left: 20px;
-    color:#3A3A3A;
+    color: #3A3A3A;
 }
-.collection-text p{
+
+.collection-text p {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 14px;
-   color: #787885;
-  line-height: 24px;
+    color: #787885;
+    line-height: 24px;
 }
+
 /* --- button ------- */
-.main-botton{
+.main-botton {
     text-align: right;
     background: red;
     position: relative;
 }
-.button-align{
+
+.button-align {
     position: absolute;
-    top:0;
+    top: 0;
     right: 0;
     padding-left: 0;
     padding-top: 50px;
@@ -255,35 +294,40 @@ ul,ol{
     padding-right: 16px;
     width: 200px;
 }
+
 /* ========================= contuct us part ============= */
-#contuct{
-    margin-top:200px;
+#contuct {
+    margin-top: 200px;
 }
- .main-contuct{
+
+.main-contuct {
     display: flex;
-} 
-.contuct-item{
+}
+
+.contuct-item {
     width: 550px;
-    background: linear-gradient(#f0e1e7,#c9c4dd ,#b7a7fc );
+    background: linear-gradient(#f0e1e7, #c9c4dd, #b7a7fc);
     padding: 30px;
 }
-.contuct-item h2{
+
+.contuct-item h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color:#3A3A3A;
+    color: #3A3A3A;
     font-size: 50px;
     text-transform: capitalize;
-    color:#7153f8;
+    color: #7153f8;
     padding-bottom: 20px;
     position: relative;
 }
-.contuct-item h2::after{
+
+.contuct-item h2::after {
     position: absolute;
-    content:'';
-    width:18%;
+    content: '';
+    width: 18%;
     height: 9px;
-    background:#E02C6D ;
-    top:73px;
+    background: #E02C6D;
+    top: 73px;
     left: 0;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -291,46 +335,54 @@ ul,ol{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-.contuct-item p{
+
+.contuct-item p {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color:#3A3A3A;
+    color: #3A3A3A;
     font-size: 17px;
     line-height: 24px;
     text-transform: capitalize;
     padding-bottom: 80px;
 }
-.bn-change{
+
+.bn-change {
     text-align: center;
     padding-bottom: 30px;
 }
-.contuct-photo{
+
+.contuct-photo {
     width: 550px;
 }
-.contuct-photo img{
-    width:100%;
+
+.contuct-photo img {
+    width: 100%;
     height: 100%;
 }
+
 /*====================== footer part start ===============*/
-#footers{
-   margin-top: 100px;
-   padding-top:30px;
-   padding-bottom:30px;
-   background: rgb(2, 2, 26);
+#footers {
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(2, 2, 26);
 }
-.footer-text-icon h2{
-    color:#ffffff;
+
+.footer-text-icon h2 {
+    color: #ffffff;
     font-size: 35px;
     text-transform: capitalize;
     padding-bottom: 10px;
 }
-.footer-text-icon h3{
-    font-size:17px;
-    color:#ffffff;
+
+.footer-text-icon h3 {
+    font-size: 17px;
+    color: #ffffff;
 }
-.footer-text-icon i{
+
+.footer-text-icon i {
     padding: 15px 15px;
-    color:#ffffff;
+    color: #ffffff;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -342,6 +394,7 @@ ul,ol{
     margin-top: 20px;
     background: #cac7c73a;
 }
+
 /*====================== 
 media query
 ========================*/
@@ -351,116 +404,137 @@ media query
 @media screen and (max-width:688px) {
 
     /* ------------ navber part -------  */
-    .main-menu{
-    
+    .main-menu {
+
         flex-direction: column-reverse;
         margin-bottom: 100px;
     }
-    .menu{
-       display: none;
-    }
-    .menu-icon{
+
+    .menu {
         display: none;
     }
-    .menu-text{
-        width: 100%;
+
+    .menu-icon {
+        display: none;
     }
-    .menu-text h2{      
-        font-size: 40px;
+
+    .menu-text h2 {
+        font-size: 30px;
         text-align: center;
-     
-    } 
+
+    }
+
+    .menu-text {
+        width: 165%;
+    }
+
 
     /* ----------- influencer -part ------------*/
-    .influencer-main{
+    .influencer-main {
         flex-direction: column-reverse;
         margin-left: 30px;
     }
 
-    .infulencer-photo{  
+    .infulencer-photo {
         margin-left: 53px;
         margin-bottom: 30px;
     }
+
     .infulencer-text {
-        text-align:center;
+        text-align: center;
     }
-    .infulencer-text h1{
-        font-size:37px;
+
+    .infulencer-text h1 {
+        font-size: 37px;
     }
-    .main-company{
-        grid-template-columns: repeat( 7, 77px);
-        width: 100% ; 
+
+    .main-company {
+        grid-template-columns: repeat(7, 77px);
+        width: 100%;
     }
-    .company-logo img{
+
+    .company-logo img {
         width: 30%;
     }
 
     /* ------ populer collection ------- */
     .title-div {
-        font-size: 35px;
+        padding-left: 90px;
+        font-size: 20px;
     }
-    .collection-main{
-        grid-template-columns: repeat(1 ,1fr);
-      
+
+    .collection-main {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 30px;
     }
+
     .collection-item {
         width: 555px;
         margin-left: 44px;
         margin-right: 17px;
         padding-bottom: 48px;
         margin-bottom: 30px;
-      }
-      .collection-text h3{
-          font-size: 46px;
-      }
-      .collection-text h2{
-          font-size: 40px;
-      }
-      .collection-text i{
-          font-size: 28px;
-      }
-      .collection-text span{
+    }
+
+    .collection-text h3 {
+        font-size: 46px;
+    }
+
+    .collection-text h2 {
+        font-size: 40px;
+    }
+
+    .collection-text i {
         font-size: 28px;
-      }
-      .collection-text p{
-          font-size: 25px;
-          line-height: 40px;
-      }
-      .main-botton{
-          width: 100%;
-          text-align: left;
-          position: relative;
-      }
+    }
+
+    .collection-text span {
+        font-size: 28px;
+    }
+
+    .collection-text p {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .main-botton {
+        width: 100%;
+        text-align: left;
+        position: relative;
+    }
 
     .button-align {
         position: absolute;
         top: 0;
         left: 236px;
-    
+
     }
-   
-      /* ---------- contact us ----------- */
-      .main-contuct{
+
+    /* ---------- contact us ----------- */
+    .main-contuct {
         flex-direction: column-reverse;
     }
-    .contuct-photo img{
+
+    .contuct-photo img {
+        width: 779px;
+    }
+
+    .contuct-item {
         width: 688px;
     }
-    .contuct-item{
-        width: 688px;
-    }
-   
+
     .contuct-item p {
         font-size: 26px;
         line-height: 41px;
-    
+
     }
-    .bn-change{
+
+    .bn-change {
         margin-left: -103px;
     }
+
     /* -------- footer part star --------- */
-    .container{
+    .container {
         width: 100%;
     }
 }
-
